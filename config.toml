@@ -1,0 +1,5 @@
+# Paste your https://weatherapi.com API key here
+key="10ab0eb948394fff8eb203945233101"
+
+# Set the unit for temperature output
+unit="f"
