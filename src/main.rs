@@ -9,7 +9,7 @@ struct Config {
 }
 
 fn get_config() -> Config {
-    let file_path = "config.toml";
+    let file_path = "/home/greembow/.config/terminal_hud/config.toml";
     let file_contents = match fs::read_to_string(file_path) {
         Err(e) => {
             println!("Unable to open config, error follows. {:?}", e);
